@@ -1,0 +1,439 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8">
+<title>Phoody - Vietnames Cuisine Reviews</title>
+<!-- Document SEO -->
+<meta name="Keywords" content="food, food reviews, food critics, vietnamese food, food tour">
+<meta name="Description" content="A website which reveals, reviews and recommends the best Vietnamese dishes and restaurants">
+<meta name="author" content="Ngan Pham">
+<!-- Favicon -->
+<link rel="icon" href="css/Images/Logo/logo 40x40.ico" type="image/x-icon">
+<!--Khai bao OG -->
+<meta property="og:title" content="Phoody - Vietnames Cuisine Reviews">
+<meta property="og:type" content="article">
+<meta propoerty="og:url" content="#">
+<meta property="og:image" content="css/Images/Logo/OG IMAGE.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:description" content="A website which reveals, reviews and recommends the best Vietnamese dishes and restaurants">
+<!-- responsive website -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CSS LINK -->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/42c05843c2.js" crossorigin="anonymous"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<!-- Font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair Display">
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<div class="container-fluid header" >
+		<!-- Navigation Bar -->	
+		<div class="container-md">
+			<nav class="navbar navbar-expand-md sticky-top" id="navigationbar">
+				<a class="navbar-brand font-weight-bolder font-italic orange" href="index.html" ><img src="css/Images/Logo/logo orange.png" alt="logo">   PHOODY</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fas fa-bars orange"></i>
+				</button>
+				<div class="collapse navbar-collapse " id="Navbar">
+					<ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+						<li class="nav-item active mr-3">
+							<a class="nav-link link orange active OS font-weight-bolder" href="index.html">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item mr-3 ">
+							<a class="nav-link link text-white OS" href="discover.html">Discover</a>
+						</li>
+						<li class="nav-item mr-3">
+							<a class="nav-link link text-white OS" href="top dishes.html">Top Dishes</a>
+						</li>
+						<li class="nav-item ">
+							<a class="nav-link link text-white OS" href="food tour.html">Food Tours</a>
+						</li>
+					</ul>
+					<!-- Dropdown button -->
+					<div class="dropdown">
+						<a class="btn dropdown-toggle btn-light OS btn-sm rounded-lg OS font-weight-bolder red" href="#" role="button" id="pickacitydropdown" data-toggle="dropdown" aria-expanded="false"> Pick a city </a>
+						<div class="dropdown-menu" aria-labelledby="pickacitydropdown">
+							<p class="dropdown-header font-weight-bolder">North</p>
+							<a class="dropdown-item" href="#">Hanoi</a>
+							<a class="dropdown-item" href="#">Hai Phong</a>
+							<div class="dropdown-divider"></div>
+							<p class="dropdown-header font-weight-bolder">Central</p>
+							<a class="dropdown-item" href="#">Hue</a>
+							<a class="dropdown-item" href="#">Da Nang</a>
+							<a class="dropdown-item" href="#">Da Lat</a>
+							<a class="dropdown-item" href="#">Nha Trang</a>
+							<div class="dropdown-divider"></div>
+							<p class="dropdown-header font-weight-bolder">South</p>
+							<a class="dropdown-item" href="#">Ho Chi Minh</a>
+							<a class="dropdown-item" href="#">Phu Quoc</a>
+						  </div>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!-- Search Engine -->
+		<div class="container bigsearch">
+				<h2 class="text-center heading2 yellow PD font-weight-bold" id="searchbartitle">Craving for a cuisine experience? </h2>
+				<h5 class="text-center heading5 text-white OS">Search for nearby restaurants, diners, food stalls,... </h5>
+				<div class="row">
+					<div class="input-group input-group-lg col-lg-8 offset-lg-2" id="search">
+						<input type="text" class="form-control OS body" id="searchfield" placeholder="Search for locations, dishes,..." aria-label="Location and dishes" aria-describedby="search">
+						<div class="input-group-append">
+							<button class="btn search-btn input-group-text body text-white " id="searchbtn">Search</button>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-3 mt-md-5 mx-md-5">
+					<div class="col-3 col-md-2 badge-one mb-2 col-xl-1 offset-lg-2 mr-xl-2 "> <span class="badge btn badge-phoody body orange">Northern</span> </div>
+					<div class="col-3 col-md-2 badge-one col-xl-1 mr-xl-2 "> <span class="badge btn badge-phoody body orange">Sweeties</span> </div>
+					<div class="col-3 col-md-2 badge-one col-xl-1 mr-xl-2"> <span class="badge btn badge-phoody body orange">Savories</span> </div>
+					<div class="col-3 col-md-2 badge-one col-xl-1 mr-xl-2"> <span class="badge btn badge-phoody body orange">Delicacy</span> </div>
+					<div class="col-3 col-md-2 badge-one col-xl-1 mb-2 offset-lg-2 offset-xl-0 mr-xl-2"> <span class="badge btn badge-phoody body orange">Economic</span> </div>
+					<div class="col-3 col-md-2 badge-one col-xl-1 mr-xl-2"> <span class="badge btn badge-phoody body orange">Must-try</span> </div>
+					<div class="col-3 col-md-2 badge-one  col-xl-1"> <span class="badge btn badge-phoody body orange">Top-rate</span> </div>
+					<div class="col-3 col-md-2 badge-one offset-lg-0 offset-xl-3 col-xl-1 mr-xl-2  "> <span class="badge btn badge-phoody body orange">Southern</span> </div>
+					<div class="col-3 col-md-2 badge-one col-xl-1 mr-xl-2 offset-lg-2 offset-xl-0"> <span class="badge btn badge-phoody body orange">Locality</span> </div>
+					<div class="col-3 col-md-2 badge-one col-xl-1 mr-xl-2"> <span class="badge btn badge-phoody body orange">Pick-ups</span> </div>
+					<div class="col-3 col-md-2 badge-one col-xl-1 mr-xl-2"> <span class="badge btn badge-phoody body orange">Formality</span> </div>
+					<div class="col-3 col-md-2 badge-one col-xl-1"> <span class="badge btn badge-phoody body orange">Everyday</span> </div>
+
+			</div>
+	</div>
+		<!-- Top dishes shortcuts -->
+		<div class="container-md mt-5 mt-md-0">
+			<div class="row justify-content-center">
+				<div class="col-lg-3 col-md-5 offset-md-1 offset-lg-0 mb-md-4 mb-3">
+					<div class="card phoodycard" style="width: 18rem;">
+					  <a href="#"><img src="css/Images/1. Landing Page/chef's list thumbnail.jpg" class="card-img-top" alt="chef's list" ></a>
+					  <div class="card-body">
+					  <a href="#" ><h6 class="card-title heading6 yellow PD font-weight-bold d-lg-inline-block linktitle" >2021 Chef's list</h6></a>
+						 <a href="#" class="btn btn-yellow-sm btn-sm">Read</a>
+						<p class="card-text body text-white text-truncate">100 Best Vietnamese dishes choosen by our most prestige chefs and reviewers</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-5 mb-md-4 mb-3">
+					<div class="card phoodycard" style="width: 18rem;">
+					 <a href="#"> <img src="css/Images/1. Landing Page/hanoi thumbnail.jpg" class="card-img-top" alt="hanoi hall of fame" ></a>
+					  <div class="card-body">
+						<a href=""><h6 class="card-title heading6 yellow PD font-weight-bold d-lg-inline-block linktitle" >Hanoi hall of food</h6></a>
+						 <a href="#" class="btn btn-yellow-sm btn-sm">Read</a>
+						<p class="card-text body text-white text-truncate">Visiting the capital? Then this’s something you must not miss!</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-5 offset-md-1 offset-lg-0 mb-3">
+					<div class="card phoodycard" style="width: 18rem;">
+					  <a href="#"><img src="css/Images/1. Landing Page/exotic thumbnail.jpg" class="card-img-top" alt="exotic dish" ></a>
+					  <div class="card-body">
+						<a href="#"><h6 class="card-title heading6 yellow PD font-weight-bold d-lg-inline-block linktitle" >Exotic experience</h6></a>
+						 <a href="#" class="btn btn-yellow-sm btn-sm">Read</a>
+						<p class="card-text body text-white text-truncate">Asian food are not Asian food without its exotic ingredients. Wanna taste?</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-5 mb-3 ">
+					<div class="card phoodycard" style="width: 18rem;">
+					 <a href=""> <img src="css/Images/1. Landing Page/food tour thumbnial.jpg" class="card-img-top" alt="Predesigned Tours" ></a>
+					  <div class="card-body">
+					<a href=""><h6 class="card-title heading6 yellow PD font-weight-bold d-lg-inline-block linktitle" >Premade tours</h6></a>
+						 <a href="#" class="btn btn-yellow-sm btn-sm">Read</a>
+						<p class="card-text body text-white text-truncate">We have drawn up the ultimate food tours from our bountiful experience</p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- cheveron down -->
+		<div class="container text-center pt-5 pb-5">
+				<a href="#category"><i class="text-white fas fa-chevron-down heading5"></i></a>
+			</div>
+		</div>
+	</header>
+	<!-- Main -->
+	<main>
+	<!-- Discover shortcuts -->
+		<!-- Categories -->
+		<div class="container pt-3 pt-md-5 pb-5" id="category">
+			<hr>
+			<div class="row">
+				<div class="col-auto mr-auto">
+					<h4 class="heading4 OS red font-weight-bold">Categories</h4>
+				</div>
+				<div class="col-auto">
+					<a href="" class="orange" ><h6 class="heading6  OS" id="seemore">See more...</h6></a>
+				</div>
+			</div>
+			<div class="row text-center pt-3">
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href="discover.html#breakfast"><img src="css/Images/1. Landing Page/toast.svg" alt="breakfast icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Breakfast</p>
+				</div>
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href="discover.html#lunch"><img src="css/Images/1. Landing Page/lunch.svg" alt="lunch icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Lunch</p>
+				</div>
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href="discover.html#dinner"><img src="css/Images/1. Landing Page/meat.svg" alt="steak icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Dinner</p>
+				</div>
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href=""><img src="css/Images/1. Landing Page/bread.svg" alt="banh mi icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Delicacy</p>
+				</div>
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href=""><img src="css/Images/1. Landing Page/noddle.svg" alt="noddle icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Noodle</p>
+				</div>
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href=""><img src="css/Images/1. Landing Page/goat.svg" alt="goat icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Exotic</p>
+				</div>
+			</div>
+			<div class="row text-center pt-3 mb-3">
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href=""><img src="css/Images/1. Landing Page/sweet.svg" alt="cake icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Desert</p>
+				</div>
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href=""><img src="css/Images/1. Landing Page/drink.svg" alt="cup icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Drink</p>
+				</div>
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href=""><img src="css/Images/1. Landing Page/pickup.svg" alt="takeaway icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Take-away</p>
+				</div>
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href=""><img src="css/Images/1. Landing Page/veg.svg" alt="vegetables icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Vegan</p>
+				</div>
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href=""><img src="css/Images/1. Landing Page/chicken.svg" alt="chicken icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Meat</p>
+				</div>
+				<div class="col-6 col-sm-3 col-md-2 category">
+					<a href=""><img src="css/Images/1. Landing Page/dinner.svg" alt="platter icon" width="50%" class="orange pt-4"></a>
+					<p class="body OS font-weight-bold text-muted pt-2">Fancy</p>
+				</div>
+			</div>
+		</div>
+		<!-- Find a meal -->
+		<div class="container-fluid bg-red pb-5">
+			<div class="container"><h2 class="heading2 OS pt-5 pb-5 text-white">Find a meal</h2></div>
+			<div class="container  bg-white findameal p-4">
+				<div class="row align-items-center">
+					<div class="col-md-auto mr-md-auto">
+						<nav class="nav">
+							<a class="nav-link active red heading6 filter" href="#" target="_self">Near me</a>
+							<a class="nav-link text-muted heading6 filter" href="#" target="_self">Popular</a>
+							<a class="nav-link text-muted heading6 filter" href="#" target="_self">Best-rated</a>
+							<a class="nav-link text-muted heading6 filter" href="#" target="_self">Delicacy</a>
+							<a class="nav-link text-muted heading6 filter" href="#" target="_self">Pick-up</a>
+						</nav>
+					</div>
+					<div class="col-md-auto ml-2 ml-md-0">
+						<div class="dropdown">
+						<button class="btn btn-sm dropdown-toggle border-dark ora" type="button" id="pickcity" data-toggle="dropdown" aria-expanded="false">Pick a city</button>
+							<div class="dropdown-menu" aria-labelledby="pickcity">
+								<a class="dropdown-item" href="#">Hanoi</a>
+								<a class="dropdown-item" href="#">Hai Phong </a>
+								<a class="dropdown-item" href="#">Hue</a>
+								<a class="dropdown-item" href="#">Hue</a>
+								<a class="dropdown-item" href="#">Da Nang</a>
+								<a class="dropdown-item" href="#">Nha Trang</a>
+								<a class="dropdown-item" href="#">Ho Chi Minh</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="row align-items-center">
+					<div class="col-12 col-sm-6 col-md-3">
+						<a href=""><img src="css/Images/1. Landing Page/meal1.jpg" alt="seefood" width="100%"></a>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6">
+						<p class="body font-italic d-inline-block mr-4  mb-0">Reviewed by Megan Adams</p>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star text-muted"></i>
+						<a href=""><h5 class="text-dark heading5 font-weight-bold mb-0">Hue Homecook - Shop Online</h5></a>
+						<p class="body font-weight-lighter  mb-0 ">15 Luong Van Can, TP. Hue<span class="body font-weight-normal pl-3">0.9km</span></p>
+						<p class="body red d-inline-flex">$5.00 - $20.00<span class="text-muted ml-3"><i class="fas fa-clock pr-2"></i>8:00 - 22:00</span></p>
+						<p class="body text-truncate mb-0">Eager to have a taste of the Central VietNam cuisine? Then don't hesitate and pick up the phone and order right away a dish from this shop. It is renowned for amazing Hue dishes which leave an unforgetable taste.</p>
+						<a class="linktitle yellow font-weight-bold" href="">Visit</a>				
+					</div>
+					<div class="col-12  col-md-3 justify-content-center ">
+						<button class="btn btn-yellow-sm btn-lg OS text-wrap bg-yellow font-weight-light leavecmt " >Leave Your Comment</button>
+					</div>
+				</div>
+				<hr>
+				<div class="row align-items-center">
+					<div class="col-12 col-sm-6 col-md-3">
+						<a href=""><img src="css/Images/1. Landing Page/meal2.jpg" alt="seefood" width="100%"></a>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6">
+						<p class="body font-italic d-inline-block mr-4  mb-0">Reviewed by Adam Smith</p>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<a href=""><h5 class="text-dark heading5 font-weight-bold mb-0">Bun Đau Mam Tom - Nguyen Luong Bang</h5></a>
+						<p class="body font-weight-lighter  mb-0 ">33 Nguyen Luong Bang, P. Phu Hoi, Tp. Hue Hue<span class="body font-weight-normal pl-3">1.1km</span></p>
+						<p class="body red d-inline-flex">$5.00 - $20.00<span class="text-muted ml-3"><i class="fas fa-clock pr-2"></i>8:00 - 22:00</span></p>
+						<p class="body text-truncate mb-0">Eager to have a taste of the Central VietNam cuisine? Then don't hesitate and pick up the phone and order right away a dish from this shop. It is renowned for amazing Hue dishes which leave an unforgetable taste.</p>
+						<a class="linktitle yellow font-weight-bold" href="">Visit</a>				
+					</div>
+					<div class="col-12  col-md-3 ">
+						<button class="btn btn-yellow-sm btn-lg OS text-wrap bg-yellow font-weight-light leavecmt" >Leave Your Comment</button>
+					</div>
+				</div>
+				<hr>
+				<div class="row align-items-center">
+					<div class="col-12 col-sm-6 col-md-3">
+						<a href=""><img src="css/Images/1. Landing Page/meal3.jpg" alt="seefood" width="100%"></a>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6">
+						<p class="body font-italic d-inline-block mr-4  mb-0">Reviewed by Stella Steal</p>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star text-muted"></i>
+						<i class="fas fa-star text-muted"></i>
+						<a href=""><h5 class="heading5 text-dark font-weight-bold mb-0">Com Tam Vien Đong - Thuy Khue</h5></a>
+						<p class="body font-weight-lighter  mb-0 ">21B Thụy Khuê, Tây Hồ, Hà Nội<span class="body font-weight-normal pl-3">2.5km</span></p>
+						<p class="body red d-inline-flex">$1.00 - $10.00<span class="text-muted ml-3"><i class="fas fa-clock pr-2"></i>16:00 - 22:00</span></p>
+						<p class="body text-truncate mb-0">Eager to have a taste of the Central VietNam cuisine? Then don't hesitate and pick up the phone and order right away a dish from this shop. It is renowned for amazing Hue dishes which leave an unforgetable taste.</p>
+						<a class="linktitle yellow font-weight-bold" href="">Visit</a>				
+					</div>
+					<div class="col-12  col-md-3 ">
+						<button class="btn btn-yellow-sm btn-lg OS text-wrap bg-yellow font-weight-light leavecmt" >Leave Your Comment</button>
+					</div>
+				</div>
+				<hr>
+				<div class="row align-items-center">
+					<div class="col-12 col-sm-6 col-md-3">
+						<a href=""><img src="css/Images/1. Landing Page/meal4.jpg" alt="seefood" width="100%"></a>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6">
+						<p class="body font-italic d-inline-block mr-4  mb-0">Reviewed by Susan Smith</p>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star text-muted"></i>
+						<a href=""><h5 class="heading5 font-weight-bold text-dark mb-0">Kim Lien - Ben, Mien Banh Da Cua - Luong Đinh Cua </h5></a>
+						<p class="body font-weight-lighter  mb-0 ">116B15 Luong Dinh Cua, TT Kim Lien, Dong Da, Ha Noi<span class="body font-weight-normal pl-3">3.4km</span></p>
+						<p class="body red d-inline-flex">$5.00 - $20.00<span class="text-muted ml-3"><i class="fas fa-clock pr-2"></i>8:00 - 22:00</span></p>
+						<p class="body text-truncate mb-0">Eager to have a taste of the Central VietNam cuisine? Then don't hesitate and pick up the phone and order right away a dish from this shop. It is renowned for amazing Hue dishes which leave an unforgetable taste.</p>
+						<a class="linktitle yellow font-weight-bold" href="">Visit</a>				
+					</div>
+					<div class="col-12  col-md-3 ">
+						<button class="btn btn-yellow-sm btn-lg OS text-wrap bg-yellow font-weight-light leavecmt" >Leave Your Comment</button>
+					</div>
+				</div>
+				<hr>
+				<div class="row align-items-center pb-3">
+					<div class="col-12 col-sm-6 col-md-3">
+						<a href=""><img src="css/Images/1. Landing Page/meal5.jpeg" alt="seefood" width="100%"></a>
+					</div>
+					<div class="col-12 col-sm-6 col-md-6">
+						<p class="body font-italic d-inline-block mr-4  mb-0">Reviewed by Zoe Pham</p>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<i class="fas fa-star yellow"></i>
+						<a href=""><h5 class="heading5 font-weight-bold text-dark mb-0">Tra sua Mixue - Tran Nguyen Han</h5></a>
+						<p class="body font-weight-lighter  mb-0 ">15 Luong Van Can, TP. Hue<span class="body font-weight-normal pl-3">0.9km</span></p>
+						<p class="body red d-inline-flex">$5.00 - $20.00<span class="text-muted ml-3"><i class="fas fa-clock pr-2"></i>8:00 - 22:00</span></p>
+						<p class="body text-truncate mb-0">Eager to have a taste of the Central VietNam cuisine? Then don't hesitate and pick up the phone and order right away a dish from this shop. It is renowned for amazing Hue dishes which leave an unforgetable taste.</p>
+						<a class="linktitle yellow font-weight-bold" href="">Visit</a>				
+					</div>
+					<div class="col-12 col-md-3">
+						<button class="btn btn-yellow-sm btn-lg OS text-wrap bg-yellow font-weight-light leavecmt" >Leave Your Comment</button>
+					</div>
+				</div>
+				<hr>
+				<div class="row">
+					<button class="btn btn-light leavecmt heading5 m-2 border-light">See all</button>
+				</div>
+			</div>
+		</div>
+	</main>
+			<!-- Footer -->
+	<footer>
+			<div class="container-fluid bg-red pt-1 pb-5">
+				<hr>
+				<div class="container pt-3">
+				<div class="row">
+					<div class="col-8 col-md-6 ">
+						<div class="row">
+							<h6 class="heading6 text-light font-weight-bold">Categories</h6>
+						</div>
+						<div class="row pt-2 ">
+							<div class="col-4 col-sm-4 pl-0">
+								<a href="" class="linktitle"><p class="body text-light">Main Course</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Appetizer</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Entre</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Desert</p></a>
+							</div>
+							<div class="col-4 col-sm-4 pl-0">
+								<a href="" class="linktitle"><p class="body text-light">Vegan</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Seafood</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Fruit</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Meat</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Fastfood</p></a>
+							</div>
+							<div class="col-4 col-md-4 pl-0">
+								<a href="" class="linktitle"><p class="body text-light">Fancy</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Casual</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Breakfast</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Lunch</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Dinner</p></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-md-2">
+						<div class="row">
+							<h6 class="heading6 text-light font-weight-bold">About us</h6>
+						</div>
+						<div class="row pt-2">
+							<div class="col-12 pl-0">
+								<a href="" class="linktitle"><p class="body text-light">Information</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Help center</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Policy</p></a>
+								<a href="" class="linktitle"><p class="body text-light">Contact</p></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="row">
+							<h6 class="heading6 text-light font-weight-bold">Download Phoody App</h6>
+						</div>
+						<div class="row">
+							<div class="col-6 col-md-12 col-lg-6 ">
+								<button class="btn btn-sm"><img src="css/Images/1. Landing Page/App-store-badge.png" width="100%" alt="appstore"></button>
+							</div>
+							<div class="col-6 col-md-12 col-lg-6">
+								<button class="btn btn-sm"><img src="css/Images/1. Landing Page/GetItOnGooglePlay-badge.png" width="100%" alt="playstore"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+	</footer>
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

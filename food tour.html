@@ -1,0 +1,278 @@
+<!doctype html>
+<html dir="ltr" lang="en">
+<head>
+<meta charset="utf-8">
+<title>Food Tour - Phoody</title>
+<!-- Document SEO -->
+<meta name="Keywords" content="food, food reviews, food critics, vietnamese food, food tour">
+<meta name="Description" content="A website which reveals, reviews and recommends the best Vietnamese dishes and restaurants">
+<meta name="author" content="Ngan Pham">
+<!-- Favicon -->
+<link rel="icon" href="css/Images/Logo/logo 40x40.ico" type="image/x-icon">
+<!--Khai bao OG -->
+<meta property="og:title" content="Food Tour - Phoody - Vietnames Cuisine Reviews">
+<meta property="og:type" content="article">
+<meta propoerty="og:url" content="#">
+<meta property="og:image" content="css/Images/Logo/OG IMAGE.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:description" content="A website which reveals, reviews and recommends the best Vietnamese dishes and restaurants">
+<!-- responsive website -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CSS LINK -->
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/42c05843c2.js" crossorigin="anonymous"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+<!-- Font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+</head>
+
+<body>
+	<!-- Header -->
+	<header>
+		<div class="container-fluid bg-red">
+			<!-- Navigation -->
+			<div class="container-md">
+				<nav class="navbar navbar-expand-md sticky-top" id="navigationbar">
+					<a class="navbar-brand font-weight-bolder font-italic orange" href="index.html" ><img src="css/Images/Logo/logo orange.png" alt="logo">   PHOODY</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+						<i class="fas fa-bars orange"></i>
+					</button>
+					<div class="collapse navbar-collapse " id="Navbar">
+						<ul class="navbar-nav mr-auto mt-2 mt-lg-0 mx-auto">
+							<li class="nav-item  mr-3">
+								<a class="nav-link link text-white active OS " href="index.html">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item mr-3 ">
+								<a class="nav-link link text-white OS" href="discover.html">Discover</a>
+							</li>
+							<li class="nav-item mr-3">
+								<a class="nav-link link text-white OS" href="top dishes.html">Top Dishes</a>
+							</li>
+							<li class="nav-item ">
+								<a class="nav-link active link yellow font-weight-bold OS" href="food tour.html">Food Tours</a>
+							</li>
+						</ul>
+						<!-- Dropdown button -->
+						<div class="dropdown">
+							<a class="btn dropdown-toggle btn-light OS btn-sm rounded-lg OS font-weight-bolder red" href="#" role="button" id="pickacitydropdown" data-toggle="dropdown" aria-expanded="false"> Pick a city </a>
+							<div class="dropdown-menu" aria-labelledby="pickacitydropdown">
+								<p class="dropdown-header font-weight-bolder">North</p>
+								<a class="dropdown-item" href="#">Hanoi</a>
+								<a class="dropdown-item" href="#">Hai Phong</a>
+								<div class="dropdown-divider"></div>
+								<p class="dropdown-header font-weight-bolder">Central</p>
+								<a class="dropdown-item" href="#">Hue</a>
+								<a class="dropdown-item" href="#">Da Nang</a>
+								<a class="dropdown-item" href="#">Da Lat</a>
+								<a class="dropdown-item" href="#">Nha Trang</a>
+								<div class="dropdown-divider"></div>
+								<p class="dropdown-header font-weight-bolder">South</p>
+								<a class="dropdown-item" href="#">Ho Chi Minh</a>
+								<a class="dropdown-item" href="#">Phu Quoc</a>
+							  </div>
+						</div>
+					</div>
+				</nav>
+			</div>
+			<!-- Tour selection -->
+			
+			<div class="row">
+				<div class=" col-12 mb-4 col-lg-4 foodtour btn" id="foodtour1">
+					<h1 class="heading1 PD yellow text-center ">NORTHERN VIETNAM</h1>	
+				</div>
+				<div class=" col-12 mb-4 col-lg-4 foodtour btn" id="foodtour2">
+					<h1 class="heading1 PD yellow text-center ">CENTRAL VIETNAM</h1>	
+				</div>
+				<div class=" col-12 col-lg-4 foodtour btn" id="foodtour3">
+					<h1 class="heading1 PD yellow text-center ">SOUTHERN VIETNAM</h1>	
+				</div>	 
+			</div>
+		</div>	
+	</header>
+	<!-- Main -->
+	<main>
+		<!--Form -->
+		<div class="container-fluid bg-red pt-5">
+			<h2 class="heading2 PD yellow text-center">Ready to embark?</h2>
+			<h6 class="heading6 text-white text-center OS">Fill in you information and sign up for a tour now!</h6>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-lg-6 offset-lg-3 bg-light p-5 my-5" id="form">
+						<form>
+							<div class="form-row">
+									<div class="col" >
+										<div class="form-group" >
+											<label for="FName" class="heading6">First name</label>
+											<input type="text" class="form-control" id="FName" aria-describedby="firstname">
+										</div>
+									</div>
+									<div class="col">
+										<div class="form-group">
+											<label for="LName" class="heading6">Last name</label>
+											<input type="text" class="form-control" id="LName" aria-describedby="lastname">
+										</div>
+									</div>
+								</div>
+							<div class="form-row">
+								<div class="col">
+									<div class="form-group" >
+										<label for="email" class="heading6">Email address</label>
+										<input type="email" class="form-control" id="email">
+									</div>
+								</div>
+							</div>
+							<div class="form-row align-items-center mb-3 mb-md-0">
+								<div class="col-md-5">
+								  <div class="form-group" >
+										<label for="phone" class="heading6">Phone Number</label>
+										<input type="tel" class="form-control" id="phone">
+									</div>
+								</div>
+								<div class="col-md-6 offset-md-1">
+									<div class="form-group mb-0 pt-4 ">
+										<div class="dropdown">
+											<a class="btn dropdown-toggle bg-red text-white OS" href="#" role="button" id="pickregiondropdown" data-toggle="dropdown" aria-expanded="false"> Pick a tour </a>
+											<div class="dropdown-menu" aria-labelledby="pickregioondropdown">
+												<a class="dropdown-item" href="#">North Tour</a>
+												<a class="dropdown-item" href="#">Central Tour</a>
+												<a class="dropdown-item" href="#">South Tour</a>
+											  </div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<button type="submit" class="btn bg-red text-white body rounded-xl btn-lg">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- FAQ -->
+		<div class="container bg-white py-5 my-5">
+			<div class="row">
+			<!-- Title -->
+				<div class="col-md-5">
+					<h2 class="heading2 OS red font-weight-bolder">FAQs</h2>
+					<p class="body"> Don't see the questions you're looking for? <span> <a href="" class=" orange linktitle">Contact us</a></span></p>
+				</div>
+			<!-- Accordion -->
+				<div class="col-md-7">
+					<div class="accordion" id="accordionExample">
+					  <div class="card ">
+						<div class="card-header bg-white " id="headingOne">
+						  <h2 class="mb-0 OS">
+							<button class="btn red heading6 btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							  Are there any English-speaking tour guides?
+							</button>
+						  </h2>
+						</div>
+						<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+						  <div class="card-body body">
+							All of our tours consist of optional tour guides who are fluent in both English and Vietnamese.
+						  </div>
+						</div>
+					  </div>
+					  <div class="card">
+						<div class="card-header bg-white" id="headingTwo">
+						  <h2 class="mb-0">
+							<button class="btn red heading6 btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							  Do the tours include transportation and lodging?
+							</button>
+						  </h2>
+						</div>
+						<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+						  <div class="card-body body">
+							Unfortunately, as a dedicated food tour, our deal only consists of transportation for the tourists. You will have to find your own lodgings.
+						  </div>
+						</div>
+					  </div>
+					  <div class="card">
+						<div class="card-header bg-white" id="headingThree">
+						  <h2 class="mb-0">
+							<button class="btn red heading6 btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+							  Can I get a refeund if I'm not satisfied?
+							</button>
+						  </h2>
+						</div>
+						<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+						  <div class="card-body body">
+							We're sorry to say that once booked, the tour cannot be refunded. In addition, if you reserve a spot but fail to attend, you will be charged a 20% fine.
+						  </div>
+						</div>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+		
+	<!-- Footer -->
+	<footer>
+		<div class="container mt-5 pt-5 pb-5">
+			<div class="row">
+					<div class="col-8 col-md-6 ">
+						<div class="row">
+							<h6 class="heading6 red font-weight-bold">Categories</h6>
+						</div>
+						<div class="row pt-2 ">
+							<div class="col-4 col-sm-4 pl-0">
+								<a href="" class="linktitle"><p class="body text-muted">Main Course</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Appetizer</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Entre</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Desert</p></a>
+							</div>
+							<div class="col-4 col-sm-4 pl-0">
+								<a href="" class="linktitle"><p class="body text-muted">Vegan</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Seafood</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Fruit</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Meat</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Fastfood</p></a>
+							</div>
+							<div class="col-4 col-md-4 pl-0">
+								<a href="" class="linktitle"><p class="body text-muted">Fancy</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Casual</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Breakfast</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Lunch</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Dinner</p></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-4 col-md-2">
+						<div class="row">
+							<h6 class="heading6 red font-weight-bold">About us</h6>
+						</div>
+						<div class="row pt-2">
+							<div class="col-12 pl-0">
+								<a href="" class="linktitle"><p class="body text-muted">Information</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Help center</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Policy</p></a>
+								<a href="" class="linktitle"><p class="body text-muted">Contact</p></a>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="row">
+							<h6 class="heading6 red font-weight-bold">Download Phoody App</h6>
+						</div>
+						<div class="row">
+							<div class="col-6 col-md-12 col-lg-6 ">
+								<button class="btn btn-sm"><img src="css/Images/1. Landing Page/App-store-badge.png" width="100%" alt="appstore"></button>
+							</div>
+							<div class="col-6 col-md-12 col-lg-6">
+								<button class="btn btn-sm"><img src="css/Images/1. Landing Page/GetItOnGooglePlay-badge.png" width="100%" alt="playstore"></button>
+							</div>
+						</div>
+					</div>
+				</div>
+		
+		</div>
+	</footer>
+	
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous">
+</script>	
+</body>
+</html>
