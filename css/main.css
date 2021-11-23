@@ -1,0 +1,196 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding:0
+}
+/* Typeface */
+.title1 {
+	font-family: "Playfaif Display" !important;
+	font-size: 95.4px !important; 
+}
+.title2 {
+	font-family: "Playfaif Display" !important;
+	font-size: 79.3px !important;
+}
+.heading1 { 
+	font-size: 61.4px !important;
+}
+.heading2 {
+font-size: 48.8px!important;
+}
+.heading3 {
+	font-size: 39.6px !important;
+}
+.heading4 {
+	font-size: 31.25px !important;
+}
+.heading5 {
+	font-size: 25px !important;
+}
+.heading6 {
+	font-size: 20px !important;
+}
+.body {
+	font-family: "Open Sans" !important;
+	font-size: 16px !important;
+}
+.OS {
+	font-family: "Open Sans"!important;
+}
+.PD {
+	font-family: "Playfair Display"!important;
+}
+/*Color Palette */
+.orange {
+	color: #DB7C26 !important
+}
+.red {
+	color: #780116 !important
+}
+.bg-red{
+	background-color: #780116!important
+}
+.yellow {
+	color: #F7B538 !important
+}
+/*header*/
+.header {
+	
+	background-image:url("Images/1. Landing Page/header background.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 150%
+}
+/*nav*/
+#navigationbar{
+	padding: 32px 0
+}
+.link:hover{
+	color: #DB7C26 !important;
+	transform: scale(1.1);
+}
+/*search*/
+.bigsearch{
+	height: 40vh;
+	margin-top:10vh
+}
+#search{
+	margin-top:32px
+}
+#searchfield{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px
+}
+#searchbtn{
+	background-color: #DB7C26;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+.search-btn:hover {
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 10px
+}
+/*cards*/
+.badge-phoody{
+	padding: 8px;
+	border: solid 2px #DB7C26!important;
+	border-radius: 25px!important;
+	margin-right: 18px;
+}
+.badge-phoody:hover{
+	transform: scale(1.1)
+}
+.phoodycard{
+	background-color: rgba(247,181,56,0.3)!important;
+	width: 100%!important;
+	box-shadow: rgba(0,0,0,0.5) 0px 0px 15px
+}
+.phoodycard img{
+	width: 100%
+}
+.phoodycard:hover{
+	transform: scale(1.05)
+}
+.btn-yellow-sm {
+	background-color: #F7B538!important;
+	color: black;
+	box-shadow: rgba(0,0,0,0.1) 0px 0px 15px;
+	font-family: "Open Sans"!important;
+	font-weight: 600!important;
+	border-radius: 7px!important;
+	display: inline;
+	float:right
+}
+.btn-yellow-sm:hover{
+	transform: scale(1.1)
+}
+#pickacitydropdown:hover{
+	transform: scale(1.1)
+}
+/*categories*/
+.linktitle:hover {
+	text-decoration: underline
+}
+#seemore:hover{
+	text-decoration: underline
+}
+.text-muted{
+	color: #c4c4c4!important
+}
+.category:hover {
+	box-shadow: rgba(0,0,0,0.2) 0px 0px 10px!important;
+}
+.category{
+	border-radius: 10px!important
+}
+/*finadameal*/
+.filter:hover{
+	transform: scale(1.1);
+}
+#pickcity{
+	border-radius: 10px
+}
+.findameal{
+	border-radius: 20px!important
+}
+.bg-yellow{
+	background-color: #F7B538!important;
+}
+.leavecmt{
+	width: 100%;
+	box-shadow: rgba(0,0,0,0.2) 0px 0px 10px
+}
+.rounded-xl{
+	border-radius: 10px!important
+}
+#foodtour1{
+	background-image: url("Images/4. Food tours/silver-ringvee-niFWqrLdjlE-unsplash.jpg")
+}
+#foodtour2{
+	background-image: url("Images/4. Food tours/gian-reto-tarnutzer-eulrjCUI7Eo-unsplash.jpg")
+}
+#foodtour3{
+	background-image: url("Images/4. Food tours/silver-ringvee-niFWqrLdjlE-unsplash.jpg")
+}
+.foodtour{
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	padding-top: 40vh!important;
+}
+.foodtour h1:hover{
+	transform: scale(1.1);
+	text-shadow: 0px 0px 5px black
+}
+
+#form{
+	border-radius: 40px!important
+}
+
+
+
+
+
